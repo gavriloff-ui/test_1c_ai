@@ -26,6 +26,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПриходнаяНакладная.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -95,6 +96,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="2100ab63-9767-4748-8c9c-d167055154a4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приходная накладная</value>
+    </synonym>
+  </forms>
   <tabularSections uuid="4ef4d23d-e9e8-4365-ae88-3d33e51d50b8">
     <producedTypes>
       <objectType typeId="c16bc773-72e5-4478-8e78-2747758e85fe" valueTypeId="f949d6bf-906a-46d8-96d2-733905f70b61"/>
