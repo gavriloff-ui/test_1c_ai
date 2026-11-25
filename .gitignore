@@ -1,0 +1,7 @@
+bin/
+*.dt
+*.cf
+*.cfe
+*.log
+.DS_Store
+Thumbs.db
